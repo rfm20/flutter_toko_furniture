@@ -6,6 +6,7 @@ class DetailScreen extends StatelessWidget {
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(
+        iconTheme: IconThemeData(color: Colors.black),
         backgroundColor: Colors.transparent,
         elevation: 0,
       ),
@@ -18,7 +19,6 @@ class DetailScreen extends StatelessWidget {
             ),
             Container(
               decoration: BoxDecoration(
-                // color: Colors.red,
                 borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(25),
                   topRight: Radius.circular(25),
